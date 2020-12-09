@@ -1,0 +1,68 @@
+{
+  "actions": [
+    {
+      "name": "show",
+      "feature_retrieve": {
+        "counters": [
+          {
+            "counterName": "showuserNUM"
+          }
+        ]
+      }
+    },
+    {
+      "name": "incr",
+      "feature_retrieve": {
+        "counters": [
+          {
+            "counterName": "showuserNUM"
+          }
+        ]
+      },
+      "save_counter": {
+        "counters": [
+          {
+            "counterName": "incrUser"
+          }
+        ]
+      }
+    },
+    {
+      "name": "decr",
+      "feature_retrieve": {
+        "counters": [
+          {
+            "counterName": "showuserNUM"
+          }
+        ]
+      },
+      "save_counter": {
+        "counters": [
+          {
+            "counterName": "decrUser"
+          }
+        ]
+      }
+    },
+    {
+      "name": "showIncrFreq",
+      "feature_retrieve": {
+        "counters": [
+          {
+            "counterName": "showuserInFreq"
+          }
+        ]
+      }
+    },
+    {
+      "name": "showDecrFreq",
+      "feature_retrieve": {
+        "counters": [
+          {
+            "counterName": "showuserOutFreq"
+          }
+        ]
+      }
+    }
+  ]
+}
